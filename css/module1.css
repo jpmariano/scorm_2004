@@ -1,0 +1,54 @@
+.container {
+	width: 1156px;
+}
+.intro {
+  background: #333 url('../img/s1-bkg-img.png') no-repeat scroll center center;
+  background-size:cover;
+}
+.intro-s2 {
+  background: #fff no-repeat scroll center center;
+  background-size:cover;
+}
+.text-intro {
+	background-color: #00989a;
+	color: white;
+	padding: 20px;
+	margin-top: 250px;
+	margin-left: 50px;
+	width: 400px;
+	font-family:'Open Sans';
+	font-weight: lighter;
+}
+.text-intro-alt {
+	padding: 20px;
+	margin-top: 0px;
+}
+.slide-header {
+	font-family:'Open Sans';
+	color: white;
+	font-size: 40px;
+	padding-left: 10px;
+}
+.slide-text {
+	font-family:'Open Sans';
+	color: white;
+	font-size: 24px;
+	font-weight: 100;
+	padding: 20px;
+}
+.footer {
+	/*height: 75px;
+	width: 1156px;*/
+	background-color:#777;
+}
+.btn-offset {
+	padding-left: 25px;
+}
+.btn-offset2 {
+	margin-left: 780px;
+}
+
+.btn {
+	font-size: 25px;
+	margin-top: 14px;
+}

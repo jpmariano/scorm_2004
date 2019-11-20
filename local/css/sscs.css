@@ -1,0 +1,378 @@
+.course-bg {
+  background:#008f8f;
+}
+.slide-header {
+  border-color:#1ababb;
+  }
+  
+div#progress-bar {
+    margin-top: 18px;
+    height: 42px;
+    padding: 0;
+}
+
+.page-selector {
+    line-height: 38px;
+    padding-right: 0;
+}
+
+.page-selector input[type="button"] {
+    background: none;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+}
+
+select#pageNumber_frm {
+    background: #778395;
+    border: none;
+}
+
+span.current-score {
+    line-height: 3.5em;
+}
+
+.progress-bar-success {
+	background: #778395;
+}
+
+#xclose { 
+ 	background:#4c2157;
+ }
+
+/* Course Global */
+.container.title .nav-btn.previous-btn {
+	display: inherit;
+}
+.course-bg {
+	background: #81529b;
+}
+@media (min-width: 768px) {
+.course-into {
+    height: 406px;
+    padding: 25px;
+}
+}
+.slide-header {
+	border-color: #81529b;
+}
+.intro-btn {
+	background: #34163c;
+}
+.intro-btn:hover {
+	background: #4c2157;
+}
+.container.title .slide {
+	background: transparent url('../img/title-bg.jpg') no-repeat scroll center top;
+}
+.intro-image {
+	background: transparent url('../img/intro-bg.jpg') no-repeat scroll center top;
+}
+h4.obj-header {
+	color: #34163c;
+}
+/* Slide 1 */
+
+.course-name {
+	background: #4c2157;
+}
+.course-bar {
+	background:#ae71d1;
+}
+
+/* Slide 2*/
+
+/* Slide 4*/
+.mar-top-20 {
+	margin-top: 20px;
+}
+.mar-top-40 {
+	margin-top: 40px;
+}
+.bot-pad-20 {
+	padding-bottom: 20px;
+}
+.bot-pad-30 {
+	padding-bottom: 30px;
+}
+.bot-pad-40 {
+	padding-bottom: 40px;
+}
+.course-define {
+	background: #333 url('../img/slide-4-left.png') no-repeat scroll center center;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+}
+.course-define-text {
+	position: relative;
+	color: white;
+	top: 240px;
+	font-family: 'Open Sans';
+}
+.define-header-1 {
+	margin-bottom: 0;
+	font-weight: lighter;
+	font-size: 24px;
+}
+.define-header-2 {
+	margin-top: 5px;
+	font-weight: bold;
+	font-size: 36px;
+}
+.define-text {
+	font-size: 18px;
+	font-weight: lighter;
+}
+.define-img {
+	padding-top: 60px;
+	padding-left: 10px;
+	width: 100%;
+}
+/* Slide 5*/
+.intent-bubble {
+	background: #fff url('../img/slide-5-bubble.jpg') no-repeat scroll center center;
+	/*background-size:cover;*/
+	position: absolute;
+	width: 100%;
+	height: 575px;
+}
+.intent-text-area {
+	position: relative;
+	color: white;
+	font-family: 'Open Sans';
+	font-weight: lighter;
+	top: 70px;
+	left: 90px;
+}
+.intent-text {
+	font-size: 24px;
+	font-weight: 500;
+}
+.intent-text-2 {
+	font-size: 22px;
+	padding-left: 40px;
+	font-weight: 300;
+}
+/*Slide-4*/
+
+.blue-box {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+	text-align: left;
+	color: #000;
+    font-size: 28px;
+}
+.purple-box-5 {
+	height:368px;
+	padding: 25px;
+	text-align: left;
+	background-color: #7f528b;
+	color: #FFF;
+    font-size: 18px;
+}
+.purple-box-5-alt {
+	margin-left: -40px;	
+	padding: 30px;
+	text-align: left;
+	background-color: #7f528b;
+	color: #FFF;
+    font-size: 18px;
+}
+.purple-box-6 {
+	padding: 25px;
+	padding-top:50px;
+	text-align: left;
+	color: #FFF;
+    font-size: 18px;
+	background-image:url(../img/slide-6-left-bubble.jpg);
+	height:210px;
+	width:283px;
+}
+.purple-box-6-right {
+	padding: 25px;
+	padding-top:50px;
+	text-align: left;
+	color: #FFF;
+    font-size: 18px;
+	background-image:url(../img/slide-6-right-bubble.jpg);
+	height:210px;
+	width:283px;
+}
+
+.purple-italics {
+	font-style: italic;
+	color: #b371d3;
+}
+span.blue-box > ul {
+	list-style-position: inside;
+    padding-left: 0px;
+}
+.main-content-small {
+	font-size: 16px;
+}
+.main-content-medium {
+	font-size: 18px;
+}
+.main-content {
+	font-size: 20px;
+}
+.main-content-large {
+	font-size: 28px;
+}
+/*Slide 7*/
+.radio-block {
+    width: 45px;
+    height: 45px;
+    display: block;
+    background-color: grey;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+	float:left;
+}
+.radio-text {
+    font-size: 22px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    line-height: 1;
+    padding-right: 100px;
+}
+.purple-bg-timer {
+color:#FFFFFF!important;
+}
+.purple-bg {
+color:#FFFFFF!important;
+background-color:#80528a!important;
+}
+.purple-bg-progress {
+background-color:#b480d7!important;
+color:#FFFFFF!important;
+}
+.height-fix {
+	margin-top:0px!important;
+	margin-bottom:15px!important;
+	min-width: 200px!important;
+}
+.myButton {
+
+	background-color:#80528a;
+	border:1px solid #b480d7;
+	display:inline-block;
+	cursor:pointer;
+	height: 40px;
+    color: #ffffff;
+    width: 200px;
+}
+.myButton:hover {
+
+	background-color:#68a54b;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*Slide 8*/
+.question-group {
+	padding: 0;
+}
+.ask-question {
+	font-family: 'Open Sans';
+	color: #1ababb;
+	margin-top: 0;
+}
+/*Slide 9*/
+.course-into-s9 {
+	height: 195px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+.bubble-text {
+	line-height: 1.5em;
+}
+.plain-text {
+	padding-top: 40px;
+	font-family: 'Open Sans';
+	font-weight: lighter;
+	font-size: 24px;
+}
+.purple-text {
+color:#9f6dc2	
+}
+a.popup-button-purple {
+    background-color: #4c2556;
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    width: 190px;
+}
+.close {
+	opacity:1!important;
+}
+
+.modal-lg-re {
+    width: 500px!important;
+	background-color:white;
+}
+/*Slide 10*/
+.course-into-s10 {
+	margin-top: 50px;
+	height: 235px;
+	padding-left: 25px;
+	padding-right: 15px;
+	padding-top: 10px;
+}
+.plain-text-s10 {
+	/*padding-top: 40px;*/
+	font-family: 'Open Sans';
+	font-weight: lighter;
+	font-size: 24px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.slide-10-img {
+	padding-left: 20px;
+}
+/*Slide 11*/
+.bubble-s10 {
+	border-left: 3px solid #1ababb;
+	border-right: 3px solid #1ababb;
+}
+.bubble-text-s10 {
+	font-family: 'Open Sans';
+	color: #1ababb;
+	font-size: 26px;
+	line-height: 36px;
+	font-weight: 700;
+	margin-top: 0;
+}
+.checkbox-block {
+    width: 45px;
+    height: 45px;
+    display: block;
+    background-color: grey;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+	float:left;
+}
+.checkbox-text {
+    font-size: 22px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    line-height: 1.4;
+    padding-right: 100px;
+}
+.checkbox-text-13 {
+    font-size: 18px;
+    padding-left: 80px;
+	line-height: 1.2;
+    padding-right: 70px;
+}

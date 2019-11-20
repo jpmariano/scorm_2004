@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a Reload version 2.5.6 SCORM 2004 Content Package document-->
+<!--Spawned from the Reload Content Package Generator - http://www.reload.ac.uk-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsmd="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" identifier="MANIFEST-ED13DEA183F7CF4AE6580EE226B47A1D" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://ltsc.ieee.org/xsd/LOM lom.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>2004 3rd Edition</schemaversion>
+  </metadata>
+  <organizations />
+  <resources>
+    <resource identifier="RES-A41D5303C3C85566FF263E3EE4FD27C1" adlcp:scormType="sco" type="webcontent" href="local/launchpage.html">
+      <file href="local/launchpage.html" />
+      <file href="css/bootstrap.min.css" />
+      <file href="js/APIWrapper.js" />
+      <file href="js/jquery-1.11.3.min.js" />
+      <file href="js/scormdriver.js" />
+      <file href="js/scormfunctions.js" />
+    </resource>
+  </resources>
+</manifest>
+

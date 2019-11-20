@@ -1,0 +1,359 @@
+/* Global */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+body {
+	background:#eeeeee;
+	font-family: 'Open Sans';
+	color:#3d4652;
+	}
+.slide {
+	background:#ffffff;
+	position:relative;
+	overflow:hidden;
+	width:1156px;
+	height:575px;
+	}
+.slide-num {
+	position:absolute;
+	right:0;
+	top:0;
+	background:#dddddd;
+	padding:4px 8px;
+	text-transform:uppercase;
+	font-size:12px;
+	}
+.container.title .slide {
+	background: transparent url('../img/title-bg.jpg') no-repeat scroll center top;
+	}
+.course-name {
+	position:absolute;
+	bottom:100px;
+	left:50px;
+	padding:25px;
+	}
+.course-bar {
+	display:inline-block;
+	background:#000000;
+	width:75px;
+	height:5px;
+	}
+h2.course-header {
+	color:#ffffff;
+	font-size:50px;
+	line-height:60px;
+	margin:0 0 10px 0;
+	}
+h3.course-sub-header {
+	color:#ffffff;
+	font-size:22px;
+	line-height:32px;
+	margin:10px 0 0 0;
+	}
+.white {
+	color:white;
+	}
+.course-into {
+	height:515px;
+	padding:25px;
+	}
+h2.intro-header {
+	margin:0 0 20px 0;
+	text-transform:uppercase;
+	}
+.intro-btn {
+	width:100%;
+	padding:10px 15px;
+	background:#005958;
+	text-align:center;
+	margin:10px 0 0 0;
+	cursor:pointer;
+	font-size:18px;
+	font-weight:300;
+	}
+.intro-btn:hover {
+	background:#007372;
+	}
+.intro-image {
+	background:transparent url('../img/intro-bg.jpg') no-repeat scroll center top;
+	width:100%;
+	height:515px;
+	}
+.slide-header {
+	border-left:3px solid #000000;
+	padding:0 0 0 10px;
+	margin:5px 0 35px 0;
+	}
+h2.slide-title {
+	margin:0;
+	font-size:38px;
+	padding:0 0 5px 0;
+	text-transform:uppercase;
+	font-weight:bold;
+	}
+h3.slide-subtitle {
+	margin:0;
+	font-size:20px;
+	padding:5px 0;
+	}
+.objectives {
+	padding:0 10px;
+	}
+h4.obj-header {
+	font-size:26px;
+	line-height:32px;
+	color:#008f8f;
+	margin:0 0 25px 0;
+	}
+.obj-list {
+	font-size:20px;
+	line-height:26px;
+	}
+#kc-results {
+	padding:15px;
+	}
+#kc-results.correct {
+	background:#dff0d8;
+	}
+#kc-results.incorrect {
+	background:#f2dede;
+	}
+#reference {
+	position:absolute;
+	bottom:5px;
+	color:#999999;
+	}
+#reference.left {
+	left:30px;
+	}
+#reference.right {
+	right:30px;
+	}
+#note {
+	position:absolute;
+	background:red;
+	color:white;
+	padding: 4px 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+	left:0;
+	top:0;
+	width:100%;
+	}
+.font-20 {
+	font-size:20px;
+	}
+.marg-b20 {
+	margin-bottom:20px;
+	}
+.marg-t20 {
+	margin-top:20px;
+	}
+.marg-b10 {
+	margin-bottom:10px;
+	}
+.marg-t10 {
+	margin-top:10px;
+	}
+.font-white {
+	color:#ffffff;
+	}
+
+/* Menu */
+
+.menu {
+	position:absolute;
+	height:575px;
+	width:200px;
+	background:#ffffff;
+	left:-200px;
+	top:0;
+	z-index:200;
+	overflow:auto;
+	border-right:1px solid #eeeeee;
+	}
+.menu.open {
+	left:0;
+	}
+#menu ol {
+    margin:0;
+    padding:0;
+    }
+#menu ol li {
+    float:left;
+    width:100%;
+    list-style-type:none;
+    }
+#menu ol li a {
+    float:left;
+    width:100%;
+    padding:12px 12px;
+    border-bottom:1px solid #eeeeee;
+    color:#428bca;
+    }
+#menu ol li a:hover {
+    background:#f2f2f2;
+    text-decoration: none;
+    }
+#menu ol li.disabled {
+    color:#dddddd;
+    cursor:default;
+    }
+#menu ol li.disabled:hover {
+    background:inherit;
+    }
+
+
+/* Spacing */
+
+.pad-15 {padding:15px;}
+.pad-30 {padding:30px;}
+.mar-25-t {margin-top:25px;}
+
+/* Footer */
+
+.footer {
+	width:1156px;
+	height:75px;
+	background:#ffffff url('../img/footer-bg.png') repeat-x scroll left top;
+	padding:0 25px;
+	font-size:15px;
+	}
+.nav-btn {
+	background:#778395;
+	color:white;
+	display:inline-block;
+	padding:0 12px;
+	line-height:40px;
+	margin-top:18px;
+	float:left;
+	cursor:pointer;
+	border: none;
+	}
+.nav-btn:hover {
+	background:#8a98ad;
+	}
+.nav-btn.text {
+	background:transparent;
+	color:#778395;
+	}
+.nav-btn.text:hover {
+	text-decoration:underline;
+	}
+.nav-btn.pull-right {
+	margin-left:6px;
+	}
+.container.title .nav-btn.previous-btn {
+	/*display:none;*/
+	}
+.nav-btn.glossary-btn {
+	/*margin-left:20px;*/
+	}
+.nav-btn.disabled {
+	background:#bbc1ca;
+	cursor:default;
+	}
+	/* Dave Added */
+button.btn.btn-primary.btn-lg.tab-btn {
+    display: block !important;
+    width: 250px !important;
+    height: 70px !important;
+}
+button.nav-btn {
+	width: auto;
+	overflow: visible;
+	background: #778395;
+	border: none;
+	color: white;
+	display: inline-block;
+	padding: 0 12px;
+	line-height: 40px;
+	}
+
+.spec-hidden {
+	position:absolute;
+	left:-10000px;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+	}
+/* Video/Audio Player */
+
+.jp-flat-video .jp-full-screen:before {
+	font-family: 'Glyphicons Halflings';
+    content: "\e096";
+    font-size:22px;
+   }
+.jp-flat-video.jp-state-full-screen .jp-full-screen:before {
+	font-family: 'Glyphicons Halflings';
+	content: '\e097';
+	}
+.jp-flat-video .jp-play:before {
+	font-family: 'Glyphicons Halflings';
+    content: "\e072";
+    font-size:22px;
+	}
+.jp-flat-video.jp-state-playing .jp-play:before {
+	font-family: 'Glyphicons Halflings';
+    content: "\e073";
+	}
+.jp-flat-video-full {
+	z-index:9999;
+}
+.jp-flat-audio .jp-full-screen:before {
+	font-family: 'Glyphicons Halflings';
+    content: "\e096";
+    font-size:16px;
+   }
+.jp-flat-audio.jp-state-full-screen .jp-full-screen:before {
+	font-family: 'Glyphicons Halflings';
+	content: '\e097';
+	}
+.jp-flat-audio .jp-play:before {
+	font-family: 'Glyphicons Halflings';
+    content: "\e072";
+    font-size:16px;
+	}
+.jp-flat-audio.jp-state-playing .jp-play:before {
+	font-family: 'Glyphicons Halflings';
+    content: "\e073";
+	}
+.jp-flat-audio-full {
+	z-index:9999;
+}
+
+/* Responsive */
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1186px;
+		}
+	}
+
+/* Chrome Modal Scrolling Fix */
+
+ .modal.fade.in {
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}
+.close {
+	opacity: .8;
+}
+
+#xclose {
+	/*background:transparent url('http://www.gifmania.co.uk/Animated-Letters-Animated-Gifs/Animated-Alphabet/Letters-X/x-letter15-27545.gif') no-repeat scroll center center;*/
+	background:#888888;
+	width:66px;
+	height:66px;
+	position:absolute;
+	right:0;
+	top:25px;
+	cursor:pointer;
+	font-size:22px;
+	line-height:66px;
+	text-align:center;
+	color:white;
+	font-weight:bold;
+	border: none;
+}

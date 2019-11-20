@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a Reload version 2.5.6 SCORM 2004 Content Package document-->
+<!--Spawned from the Reload Content Package Generator - http://www.reload.ac.uk-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsmd="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" identifier="MANIFEST-343493373BB0ECB90061D671203E9580" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://ltsc.ieee.org/xsd/LOM lom.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>2004 3rd Edition</schemaversion>
+  </metadata>
+  <organizations default="ORG-A60E1B582BEE783D7288AFCC51E35E67">
+    <organization identifier="ORG-A60E1B582BEE783D7288AFCC51E35E67" structure="hierarchical">
+      <title>sscs</title>
+      <item identifier="ITEM-46F3E87BCF991055979AB9BEF031C83C" identifierref="RES-FBC86EFEB9E47B38EF5A062471F34E19" isvisible="true">
+        <title>Lesson 1</title>
+      </item>
+      <metadata>
+        <imsmd:lom>
+          <imsmd:general>
+            <imsmd:language>en</imsmd:language>
+          </imsmd:general>
+          <imsmd:technical>
+            <imsmd:format>text/html</imsmd:format>
+          </imsmd:technical>
+          <imsmd:educational>
+            <imsmd:language>en</imsmd:language>
+          </imsmd:educational>
+        </imsmd:lom>
+      </metadata>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-FBC86EFEB9E47B38EF5A062471F34E19" adlcp:scormType="sco" type="webcontent" href="local/launchpage.html">
+      <file href="local/launchpage.html" />
+      <file href="css/bootstrap.min.css" />
+      <file href="js/APIWrapper.js" />
+      <file href="js/jquery-1.11.3.min.js" />
+      <file href="js/scormdriver.js" />
+      <file href="js/scormfunctions.js" />
+      <file href="local/js/custom_scormfunctions.js" />
+    </resource>
+  </resources>
+</manifest>
+

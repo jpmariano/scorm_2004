@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 2, 2015, 2:41:30 PM
+    Author     : trieutran
+*/
+      
+.selected {
+    display: block;
+    background-color: gray;
+    }
+.kc-choices {
+  margin:0 0 10px 0;
+  width:100%;
+  cursor:pointer;
+  float:left;
+  }
+.kc-choice-label {
+    width: 45px;
+    height: 45px;
+    background:#778395;
+    color: white;
+    font-size: 28px;
+    line-height:45px;
+    text-align: center;
+    float:left;
+}
+.kc-choice-text {
+    height: 45px;
+    font-size: 20px;
+    line-height:45px;
+    /*background:grey;*/
+    float:left;
+    padding-left:20px;
+}
+.kc-choice-text.long {
+    width:90%;
+    line-height:23px;
+    }
+
+
+
+
+
+.kc-select {
+    background:#5eb75e;
+}
+.kc-green {background:#5eb75e;}
+.kc-red {background:#d9524f;}
+
+label > input{ /* HIDE RADIO */
+  display:none;
+}
+
+label > input + .checkbox-block{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+
+label > input:checked + .checkbox-block{ /* (CHECKED) IMAGE STYLES */
+  background-color: #fc4349;
+}
+.myButton {
+  background-color: #7d2124;
+}
+
+button.kc-quiz-button {
+    width: auto;
+    overflow: visible;
+    background: #778395;
+    border:none;
+    color: white;
+    display: inline-block;
+    padding: 0 12px;
+    line-height: 40px;
+    text-transform:uppercase;
+    }

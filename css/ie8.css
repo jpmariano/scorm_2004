@@ -1,0 +1,10 @@
+/* IE8 Template Styles & Fixes */
+
+/* Polyfill for full-scale background images in IE */
+.hero,
+.element-img,
+.header {
+  background-size: cover;
+  -ms-behavior: url(backgroundsize.min.htc);
+  behavior: url(backgroundsize.min.htc);
+}
